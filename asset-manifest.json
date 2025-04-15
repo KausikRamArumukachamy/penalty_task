@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/KausikRamArumukachamy/penalty_task/static/css/main.53191ff0.css",
+    "main.js": "/KausikRamArumukachamy/penalty_task/static/js/main.5d86f2a9.js",
+    "static/js/453.159da7d1.chunk.js": "/KausikRamArumukachamy/penalty_task/static/js/453.159da7d1.chunk.js",
+    "static/media/spin_wheel.png": "/KausikRamArumukachamy/penalty_task/static/media/spin_wheel.b7a55463d9ac9540c9da.png",
+    "index.html": "/KausikRamArumukachamy/penalty_task/index.html",
+    "main.53191ff0.css.map": "/KausikRamArumukachamy/penalty_task/static/css/main.53191ff0.css.map",
+    "main.5d86f2a9.js.map": "/KausikRamArumukachamy/penalty_task/static/js/main.5d86f2a9.js.map",
+    "453.159da7d1.chunk.js.map": "/KausikRamArumukachamy/penalty_task/static/js/453.159da7d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53191ff0.css",
+    "static/js/main.5d86f2a9.js"
+  ]
+}

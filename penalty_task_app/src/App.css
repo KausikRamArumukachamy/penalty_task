@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* start content higher */
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: rgb(97, 6, 0);
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.header {
+  font-family: 'Creepster', cursive;
+  font-size: 6vw; /* responsive font size */
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+  text-shadow:
+    0 0 5px #ffffff,
+    0 0 10px #b96e63,
+    0 0 20px #ff5e00,
+    0 0 40px #ff3700;
+  margin: 10px 0 20px 0;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+.input-box {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+
+.wheel-container {
+  flex-direction: column;
+}
+
+.wheel {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding:10px;
+  transition: transform 3s ease-in-out;
+}
+
+.spin {
+  animation: spinAnimation 3s linear;
+}
+
+.unicode-arrow {
+  font-size: 5rem; /* size of arrow */
+  color: rgb(0, 0, 0);       /* arrow color */
+}
+
+@keyframes spinAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1080deg); /* 3 full spins */
+  }
+}
